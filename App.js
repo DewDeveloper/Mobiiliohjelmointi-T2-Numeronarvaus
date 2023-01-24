@@ -28,10 +28,10 @@ export default function App() {
       Alert.alert("You guessed the number in " + count + " guesses");
     } 
     else if (intGuess <= randNum) {
-      Alert.alert("Your guess " + intGuess + " is too low");
+      setText1("Your guess " + intGuess + " is too low");
     }
     else {
-      Alert.alert("Your guess " + intGuess + " is too high")
+      setText1("Your guess " + intGuess + " is too high")
     }
   }
 
